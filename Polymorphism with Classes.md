@@ -26,7 +26,28 @@ To create two specific classes — `Beans` and `Mango`. Then, create a **generic
 ---
 
 ## 💻 Program
+      class Beans:
+          def type(self):
+              print("Vegetable")
+          def colour(self):
+              print("Green")
+      class Mango:
+          def type(self):
+              print("Fruit")
+          def colour(self):
+              print("Yellow")
+      def func(obj):
+          obj.type()
+          obj.colour()
+          print()
+      ob1 = Beans()
+      ob2 = Mango()
+      func(ob1)
+      func(ob2)
 
-## Output
 
-## Result
+## Output:
+<img width="1918" height="902" alt="503595638-f050d88a-adb5-4686-82c0-48cb9d4affab" src="https://github.com/user-attachments/assets/17b2b012-1a3c-45cf-9149-3d0e20206587" />
+
+## Result:
+Thus, The Pythom program to create two specific classes — Beans and Mango. Then, create a generic function that can accept any object and determine its type (Fruit or Vegetable) and color, using polymorphismwas executed successfully.
